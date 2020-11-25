@@ -1,2 +1,10 @@
 server:
   port: 8081
+spring:
+  application:
+    # 配置服务的名称
+    name: 01-springcloud-service-provider
+eureka:
+  client:
+    # eureka连接地址
+    service-url.defaultZone: http://localhost:8083/eureka
