@@ -1,6 +1,5 @@
 package com.xunao.springcloud.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @since: 2020/11/25 16:00
  */
 @RestController
-@RequestMapping("/user")
 public class UserController {
-    @GetMapping("/list")
+
+    @RequestMapping("/user/list")
     public String getUer() {
-        return "8081";
+        return "I,m provider";
     }
 }

@@ -1,2 +1,11 @@
 server:
   port: 8082
+spring:
+  application:
+    name: 02-springcloud-service-consumer
+eureka:
+  client:
+    healthcheck:
+      enabled: false
+    service-url:
+      defaultZone: http://localhost:8083/eureka

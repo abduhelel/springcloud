@@ -7,4 +7,5 @@ spring:
 eureka:
   client:
     # eureka连接地址
-    service-url.defaultZone: http://localhost:8083/eureka
+    service-url:
+      defaultZone: http://localhost:8083/eureka
